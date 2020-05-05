@@ -1,5 +1,5 @@
 # Cardioxis
-This was the code from the Cardioxis, a machine I created for Dr. Qi Wang's lab in Columbia University biomedical department. 
+This was the code from the Cardioxis, a machine I alone created for Dr. Qi Wang's lab in Columbia University biomedical department. 
 
 To use the code, you need to change the value of the #define _SS_MAX_RX_BUFF from a 64 to a 256. #define _SS_MAX_RX_BUFF 
 is located in the sofwareserial.h file that is preinstalled when the Arduino IDE is installed. After this value is changed, upload the code to an arduino.
